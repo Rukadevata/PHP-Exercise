@@ -19,6 +19,6 @@ if (isset($_POST['alas']) && isset($_POST['tinggi'])) {
     $a = $_POST['alas'];
     $t = $_POST['tinggi'];
     $luas = 1/2 * $a * $t;
-    echo "Luas: $luas<br>";
+    echo "Luas: $luas";
 }
 ?>

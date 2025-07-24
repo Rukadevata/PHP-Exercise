@@ -19,6 +19,6 @@ if (isset($_POST['sisi'])) {
     $luas = $s * $s;
     $keliling = 4 * $s;
     echo "Luas: $luas<br>";
-    echo "Keliling: $keliling<br>";
+    echo "Keliling: $keliling";
 }
 ?>

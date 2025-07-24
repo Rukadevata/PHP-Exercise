@@ -19,6 +19,6 @@ if (isset($_POST['sisi'])) {
     $luas = 6 * $s * $s;
     $volume = $s * $s * $s;
     echo "Luas: $luas<br>";
-    echo "Volume: $volume<br>";
+    echo "Volume: $volume";
 }
 ?>

@@ -19,6 +19,6 @@ if (isset($_POST['jari'])) {
     $luas = 3.14 * $r * $r;
     $keliling = 2 * 3.14 * $r;
     echo "Luas: $luas<br>";
-    echo "Keliling: $keliling<br>";
+    echo "Keliling: $keliling";
 }
 ?>
