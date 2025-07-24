@@ -8,7 +8,7 @@
 <body>
     <h1>Persegi</h1>
     <form action="" method="post">
-        Sisi: <input type="text" name="sisi"><br>
+        Sisi: <input type="number" name="sisi" required><br>
         <input type="submit" value="Hitung">
     </form>
 </body>

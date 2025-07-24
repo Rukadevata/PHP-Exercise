@@ -8,8 +8,8 @@
 <body>
     <h1>Kubus</h1>
     <form action="" method="post">
-        Sisi: <input type="text" name="kubus"><br>
-        <input type="button" value="Hitung">
+        Sisi: <input type="number" name="sisi" required><br>
+        <input type="submit" value="Hitung">
     </form>
 </body>
 </html>

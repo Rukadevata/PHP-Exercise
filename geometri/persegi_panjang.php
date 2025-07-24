@@ -8,8 +8,8 @@
 <body>
   <h1>Persegi Panjang</h1>
   <form action="" method="post">
-    Panjang: <input type="text" name="panjang"><br>
-    Lebar: <input type="text" name="lebar"><br>
+    Panjang: <input type="number" name="panjang" required><br>
+    Lebar: <input type="number" name="lebar" required><br>
     <input type="submit" value="Hitung">
   </form>
 </body>

@@ -8,8 +8,8 @@
 <body>
     <h1>Segitiga</h1>
     <form action="" method="post">
-        Alas: <input type="text" name="alas"><br>
-        Tinggi: <input type="text" name="tinggi"><br>
+        Alas: <input type="number" name="alas" required><br>
+        Tinggi: <input type="number" name="tinggi" required><br>
         <input type="submit" value="Hitung">
     </form>
 </body>

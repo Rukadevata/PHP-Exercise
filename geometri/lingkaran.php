@@ -8,17 +8,17 @@
 <body>
     <h1>Lingkaran</h1>
     <form action="" method="post">
-        Jari-jari: <input type="text" name="jari"><br>
+        Jari-jari: <input type="number" name="jari" required><br>
         <input type="submit" value="Hitung">
     </form>
 </body>
 </html>
 <?php
-if (isset($_POST['jari']) && isset($_POST['diameter'])) {
+if (isset($_POST['jari'])) {
     $r = $_POST['jari'];
     $luas = 3.14 * $r * $r;
     $keliling = 2 * 3.14 * $r;
     echo "Luas: $luas<br>";
-    echo "Keliling: $luas<br>";
+    echo "Keliling: $keliling<br>";
 }
 ?>
