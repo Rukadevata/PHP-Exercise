@@ -34,7 +34,7 @@ This repository contains various PHP exercises and mini-projects based on lesson
     ```bash
     git clone https://github.com/Bama2262/PHP-Exercise.git
 
-3. Move the folder into your server directory (e.g. **htdocs** for XAMPP).
+3. Move the folder into your server directory (e.g. `htdocs` for XAMPP).
 4. Open your browser and go to:
 
     ```bash
