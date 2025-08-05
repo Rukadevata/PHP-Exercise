@@ -2,41 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tambah Siswa</title>
 </head>
 <body>
-    
+
 <h1>Tambah Data Siswa</h1>
 
-<form action="" method="get">
-    <input type="text" name="nama_siswa" id="nama_siswa" placeholder="Isi Nama...">
-    <input type="number" name="umur" id="umur" placeholder="Isi Usia...">
-    <input type="email" name="email" id="email" placeholder="Isi Email...">
+<form action="" method="post">
+    <input type="text" name="nama_siswa" placeholder="Isi Nama..." required><br><br>
+    <input type="number" name="umur" placeholder="Isi Umur..." required><br><br>
+    <input type="email" name="email" placeholder="Isi Email..." required><br><br>
     <button type="submit" name="tambah">Tambah</button>
 </form>
 
 <?php
-// mengambil data dari form menggunakan $_POST
-// pengecekan
 if(isset($_POST['tambah'])) {
+    require_once('koneksi.php');
     $nama = $_POST['nama_siswa'];
     $umur = $_POST['umur'];
     $email = $_POST['email'];
 
-    //koneksi ke database
-    require_once('koneksi.php');
+    $result = mysqli_query($koneksi, "INSERT INTO tabel_siswa (nama, umur, email) VALUES ('$nama', '$umur', '$email')");
 
-    // insert data
-    $result = mysqli_query($koneksi, "INSERT INTO tabel_siswa VALUES ('', '$nama', '$umur', '$email')") or die (mysqli_error($koneksi));
-
-    // cek apabila data berhasil diinput
     if($result) {
-        echo "<script>window.alert('data berhasil ditambahkan!');</script>";
+        echo "<script>alert('Data berhasil ditambahkan!'); window.location.href='data_siswa.php';</script>";
+    } else {
+        echo "<script>alert('Gagal menambahkan data!');</script>";
     }
 }
-
-
 ?>
 
 </body>
