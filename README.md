@@ -32,7 +32,7 @@ This repository contains various PHP exercises and mini-projects based on lesson
 2. Clone this repository:
 
     ```bash
-    git clone https://github.com/Bama2262/PHP-Exercise.git
+    git clone https://github.com/Rukadevata/PHP-Exercise.git
 
 3. Move the folder into your server directory (e.g. `htdocs` for XAMPP).
 4. Open your browser and go to:
