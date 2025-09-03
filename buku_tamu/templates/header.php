@@ -43,25 +43,25 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="index.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="buku-tamu.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Buku Tamu</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="laporan.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Laporan</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="user.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>User</span></a>
             </li>
