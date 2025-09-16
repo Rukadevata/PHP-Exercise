@@ -20,9 +20,6 @@
     <!-- Custom styles for this template-->
     <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this page -->
-    <link href="assets/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top">
@@ -38,7 +35,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Buku Tamu Bama</div>
+                <div class="sidebar-brand-text mx-3">Zie BukuTamu</div>
             </a>
 
             <!-- Divider -->
@@ -46,26 +43,26 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="index.php">
+                <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="buku-tamu.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="fas fa-fw fa-book-open"></i>
                     <span>Buku Tamu</span></a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="laporan.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="fas fa-fw fa-file-alt"></i>
                     <span>Laporan</span></a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="user.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="fas fa-fw fa-users"></i>
                     <span>User</span></a>
             </li>
 
@@ -134,6 +131,7 @@
                                 </form>
                             </div>
                         </li>
+
 
                         <div class="topbar-divider d-none d-sm-block"></div>
 
