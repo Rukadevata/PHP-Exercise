@@ -69,7 +69,7 @@ include_once('templates/header.php');
                                             <td><?= $tamu['no_hp'] ?></td>
                                             <td><?= $tamu['bertemu'] ?></td>
                                             <td><?= $tamu['kepentingan'] ?></td>
-                                            <td><button class="btn btn-success" type="button">Ubah</button>
+                                            <td><a class="btn btn-success" href="edit-tamu.php?id_tamu=<?= $tamu['id_tamu']?>">Ubah</a>
                                                 <button class="btn btn-danger" type="button">Hapus</button></td>
                                         </tr>
                                         <?php endforeach; ?>
@@ -98,8 +98,8 @@ include_once('templates/header.php');
     // string sprintf("%03s", $urutan); berfungsi untuk membuat string menjadi 3 karakter
 
     // angka yang diambil tadi digabungkan dengan kode huruf yang kita inginkan, misalnya zt
-    $huruf = "zt";
-    $kodeTamu = $huruf . sprintf("%03s", $urutan);
+    $huruf = "TM";
+    $kodeTamu = $huruf . sprintf("%02s", $urutan);
 ?>
 
 <!-- Modal Tambah-->
@@ -107,7 +107,7 @@ include_once('templates/header.php');
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="tambahModalLabel">Tambah Data Tamu  </h5>
+        <h5 class="modal-title" id="tambahModalLabel">Tambah Data Tamu</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
