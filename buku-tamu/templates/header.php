@@ -20,9 +20,6 @@
     <!-- Custom styles for this template-->
     <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this page -->
-    <link href="assets/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top">
@@ -34,9 +31,9 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+                <div class="sidebar-brand-icon">
+                    <i class="fas fa-school"></i>
                 </div>
                 <div class="sidebar-brand-text mx-3">Zie BukuTamu</div>
             </a>
@@ -46,7 +43,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="index.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -68,6 +65,7 @@
                     <i class="fas fa-fw fa-users"></i>
                     <span>User</span></a>
             </li>
+
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -133,8 +131,8 @@
                                     </div>
                                 </form>
                             </div>
-                        </li>
 
+                        </li>
 
                         <div class="topbar-divider d-none d-sm-block"></div>
 
